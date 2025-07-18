@@ -1,21 +1,21 @@
-import { IconButton, SvgIcon } from "@mui/material";
-import PlayIcon from "@assets/play.svg?react";
-import RecIcon from "@assets/rec.svg?react";
-import StopIcon from "@assets/stop.svg?react";
+import PlayIcon from "@assets/play.svg";
+import RecIcon from "@assets/rec.svg";
+import StopIcon from "@assets/stop.svg";
+import { CButton } from "@coreui/react";
 
 export const Header = () => {
   return (
     <>
-      <div className="header">
-        <IconButton className="button">
-          <SvgIcon component={PlayIcon} />
-        </IconButton>
-        <IconButton className="button">
-          <SvgIcon component={RecIcon} />
-        </IconButton>
-        <IconButton className="button">
-          <SvgIcon component={StopIcon} />
-        </IconButton>
+      <div className="header_wrap">
+        <CButton className="header_button">
+          <img src={PlayIcon} />
+        </CButton>
+        <CButton className="header_button">
+          <img src={RecIcon} />
+        </CButton>
+        <CButton className="header_button">
+          <img src={StopIcon} />
+        </CButton>
       </div>
     </>
   );
