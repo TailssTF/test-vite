@@ -28,6 +28,15 @@ body {
   padding-right: 10px;
 }
 
+.button {
+  opacity: 13%;
+
+  &:hover {
+    background-color: transparent !important;
+    opacity: 50%;
+  }
+}
+
 .content {
   padding: 0 20px 0 20px;
   justify-content: center;

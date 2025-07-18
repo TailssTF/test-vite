@@ -7,13 +7,13 @@ export const Header = () => {
   return (
     <>
       <div className="header">
-        <IconButton>
+        <IconButton className="button">
           <SvgIcon component={PlayIcon} />
         </IconButton>
-        <IconButton>
+        <IconButton className="button">
           <SvgIcon component={RecIcon} />
         </IconButton>
-        <IconButton>
+        <IconButton className="button">
           <SvgIcon component={StopIcon} />
         </IconButton>
       </div>
