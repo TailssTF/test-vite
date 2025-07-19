@@ -1,5 +1,5 @@
-import { CButton, CProgress } from "@coreui/react";
 import { useState } from "react";
+import { CButton, CProgress } from "@coreui/react";
 
 export const Progress = () => {
   const [currentProgress, setCurrentProgress] = useState<number>(0);

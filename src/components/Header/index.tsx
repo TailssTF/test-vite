@@ -1,7 +1,7 @@
+import { CButton } from "@coreui/react";
 import PlayIcon from "@assets/play.svg";
 import RecIcon from "@assets/rec.svg";
 import StopIcon from "@assets/stop.svg";
-import { CButton } from "@coreui/react";
 
 export const Header = () => {
   return (
